@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mongo1</title>
+</head>
+<body>
+    <div id=divnuevo></div>
+    <div id=div></div>
+    <div>
+        <input type="text" placeholder="tamaño" id= "Tamaño" />
+        <input type="text" placeholder="color" id= "Color" />
+        <input type="text" placeholder="material" id= "Material" />
+        <input type="text" placeholder="patas" id= "Número de patas" />
+
+
+        <button onclick="enviarInfo">Enviar</button>
+    </div>
+    <div>
+        <input type="text" id= "ColorModificar" />
+        <button onclick="modificarInfo">Cambiar</button>
+
+    </div>
+    <div>
+        <input type="text" id= "EliminarPatas" />
+        <button onclick="eliminarInfo">Eliminar</button>
+    </div>
+
+        <div id="feedback"></div>
+
+
+    <script src=./index.js></script>
+</body>
+</html>
